@@ -1,0 +1,15 @@
+{
+  "dependencies": {
+    "@tailwindcss/cli": "^4.1.11",
+    "build": "^0.1.4"
+  },
+  "scripts": {
+    "build": "tailwindcss -i ./src/input.css -o",
+    "start": "live-server src"
+  },
+  "devDependencies": {
+    "http-server": "^14.1.1",
+    "live-server": "^1.2.2",
+    "tailwindcss": "^4.1.11"
+  }
+}
