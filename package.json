@@ -4,7 +4,7 @@
     "build": "^0.1.4"
   },
   "scripts": {
-    "build": "tailwindcss -i ./src/input.css -o ./docs/output.cs",
+    "build": "tailwindcss -i ./src/input.css -o ./src/output.cs",
     "start": "live-server src"
   },
   "devDependencies": {
