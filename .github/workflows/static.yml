@@ -29,12 +29,14 @@ jobs:
       - name: Install dependencies
         run: npm install
       
+      - name: Create docs directory
+        run: mkdir -p docs
+      
       - name: Build Tailwind CSS
-        run: npm run build -- -o ./docs/output.css
+        run: npm run build
       
       - name: Copy HTML files to docs
         run: |
-          mkdir -p docs
           cp src/index.html docs/
           cp -r src/images docs/ 2>/dev/null || true
           cp -r src/style docs/ 2>/dev/null || true
