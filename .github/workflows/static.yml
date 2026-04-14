@@ -39,7 +39,6 @@ jobs:
         run: |
           cp src/index.html docs/
           cp -r src/images docs/ 2>/dev/null || true
-          cp -r src/style docs/ 2>/dev/null || true
       
       - name: Setup Pages
         uses: actions/configure-pages@v5
