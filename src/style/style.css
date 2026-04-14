@@ -856,7 +856,7 @@ img {
     }
 
     .navContainer {
-      background-image: url('./images/bannerthom2.jpg');
+      background-image: url('images/bannerthom2.jpg');
       background-size: cover;
       height: 450px;
     }
